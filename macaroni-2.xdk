@@ -1,0 +1,1490 @@
+{
+  "project": {
+    "projectSettingsVersion": "1.2",
+    "creationData": {
+      "type": "App Designer",
+      "projectTypeName": "com.intel.xdk.projecttype.jsapp",
+      "src": "appDesigner",
+      "projectGuid": "798b83fc-ac4a-4dbe-a61b-9dc2cb4e4474",
+      "lastModifiedDate": 1438887615700,
+      "creationDate": 1438799021435
+    },
+    "XDK-app-designer": "true",
+    "sourceDirectory": "www",
+    "startFile": "index.html",
+    "projectFiles": {},
+    "projectDirectories": {
+      "www/xdk/services": {
+        "settings": {
+          "project": {
+            "XDK-generated": "true"
+          }
+        }
+      }
+    },
+    "libraries": [],
+    "serviceMethods": [
+      {
+        "methodName": "flickrphotos_search",
+        "serviceName": "flickr",
+        "resultType": "object",
+        "selectedPaths": {
+          ".photos.photo[0].url": "string",
+          ".photos.photo[0].title": "string",
+          ".photos.photo[5].secret": "string"
+        },
+        "cachedResult": {
+          "photos": {
+            "page": 1,
+            "pages": 2807,
+            "perpage": 100,
+            "total": "280685",
+            "photo": [
+              {
+                "id": "19706880893",
+                "owner": "23835775@N02",
+                "secret": "80e7bba741",
+                "server": "3735",
+                "farm": 4,
+                "title": "Jeffrey",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm4.staticflickr.com/3735/19706880893_80e7bba741.jpg"
+              },
+              {
+                "id": "19705193134",
+                "owner": "134754649@N03",
+                "secret": "b94ee3a7f2",
+                "server": "326",
+                "farm": 1,
+                "title": "Lazy day",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/326/19705193134_b94ee3a7f2.jpg"
+              },
+              {
+                "id": "20141202479",
+                "owner": "133329572@N02",
+                "secret": "8878edbfab",
+                "server": "264",
+                "farm": 1,
+                "title": "Beatrix2 (2)",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/264/20141202479_8878edbfab.jpg"
+              },
+              {
+                "id": "20139778940",
+                "owner": "133329572@N02",
+                "secret": "d3d3ac152b",
+                "server": "256",
+                "farm": 1,
+                "title": "Beatrix2 (3)",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/256/20139778940_d3d3ac152b.jpg"
+              },
+              {
+                "id": "20139778690",
+                "owner": "133329572@N02",
+                "secret": "bb34160afc",
+                "server": "543",
+                "farm": 1,
+                "title": "Beatrix3 (2)",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/543/20139778690_bb34160afc.jpg"
+              },
+              {
+                "id": "20333874841",
+                "owner": "133329572@N02",
+                "secret": "e3d15d1e74",
+                "server": "3712",
+                "farm": 4,
+                "title": "Beatrix3 (3)",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm4.staticflickr.com/3712/20333874841_e3d15d1e74.jpg"
+              },
+              {
+                "id": "20301589876",
+                "owner": "133329572@N02",
+                "secret": "0bf8fdd06b",
+                "server": "321",
+                "farm": 1,
+                "title": "Beatrix6 (2)",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/321/20301589876_0bf8fdd06b.jpg"
+              },
+              {
+                "id": "20333873031",
+                "owner": "133329572@N02",
+                "secret": "9feb8dbf31",
+                "server": "553",
+                "farm": 1,
+                "title": "Beatrix Freedom (3)",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/553/20333873031_9feb8dbf31.jpg"
+              },
+              {
+                "id": "20141200059",
+                "owner": "133329572@N02",
+                "secret": "14bb59efbb",
+                "server": "327",
+                "farm": 1,
+                "title": "Beatrix",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/327/20141200059_14bb59efbb.jpg"
+              },
+              {
+                "id": "19706853733",
+                "owner": "133329572@N02",
+                "secret": "edbed69ec6",
+                "server": "269",
+                "farm": 1,
+                "title": "Beatrix Freedom (2)",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/269/19706853733_edbed69ec6.jpg"
+              },
+              {
+                "id": "20139808818",
+                "owner": "133329572@N02",
+                "secret": "dae531b3b4",
+                "server": "490",
+                "farm": 1,
+                "title": "Beatrix (4)",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/490/20139808818_dae531b3b4.jpg"
+              },
+              {
+                "id": "20333872421",
+                "owner": "133329572@N02",
+                "secret": "327d61c85b",
+                "server": "533",
+                "farm": 1,
+                "title": "beatrix_3",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/533/20333872421_327d61c85b.jpg"
+              },
+              {
+                "id": "20319378332",
+                "owner": "133329572@N02",
+                "secret": "b510c60b81",
+                "server": "281",
+                "farm": 1,
+                "title": "beatrix_3 (2)",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/281/20319378332_b510c60b81.jpg"
+              },
+              {
+                "id": "19705183444",
+                "owner": "133329572@N02",
+                "secret": "9058ab6429",
+                "server": "351",
+                "farm": 1,
+                "title": "beatrix_4",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/351/19705183444_9058ab6429.jpg"
+              },
+              {
+                "id": "19705183364",
+                "owner": "133329572@N02",
+                "secret": "c13fcf3d24",
+                "server": "522",
+                "farm": 1,
+                "title": "beatrix_5 (2)",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/522/19705183364_c13fcf3d24.jpg"
+              },
+              {
+                "id": "19706852733",
+                "owner": "133329572@N02",
+                "secret": "a683212544",
+                "server": "500",
+                "farm": 1,
+                "title": "beatrix_5",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/500/19706852733_a683212544.jpg"
+              },
+              {
+                "id": "20319378242",
+                "owner": "133329572@N02",
+                "secret": "37c3f3456f",
+                "server": "3828",
+                "farm": 4,
+                "title": "beatrix_4 (2)",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm4.staticflickr.com/3828/20319378242_37c3f3456f.jpg"
+              },
+              {
+                "id": "20327842095",
+                "owner": "133329572@N02",
+                "secret": "6617494a42",
+                "server": "357",
+                "farm": 1,
+                "title": "Beatrix6 (3)",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/357/20327842095_6617494a42.jpg"
+              },
+              {
+                "id": "20141191939",
+                "owner": "134754649@N03",
+                "secret": "e464027389",
+                "server": "355",
+                "farm": 1,
+                "title": "The Twin Shadows - Leviathan and Locke",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/355/20141191939_e464027389.jpg"
+              },
+              {
+                "id": "20141177439",
+                "owner": "133329572@N02",
+                "secret": "3a375bcbce",
+                "server": "266",
+                "farm": 1,
+                "title": "Bear14 (2)",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/266/20141177439_3a375bcbce.jpg"
+              },
+              {
+                "id": "19705126964",
+                "owner": "98292634@N00",
+                "secret": "63328ee7b5",
+                "server": "3725",
+                "farm": 4,
+                "title": "Charming",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm4.staticflickr.com/3725/19705126964_63328ee7b5.jpg"
+              },
+              {
+                "id": "19704912444",
+                "owner": "48006122@N02",
+                "secret": "e059e7de13",
+                "server": "432",
+                "farm": 1,
+                "title": "Animales (2)",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/432/19704912444_e059e7de13.jpg"
+              },
+              {
+                "id": "20139480800",
+                "owner": "134754649@N03",
+                "secret": "1b42406f1b",
+                "server": "3758",
+                "farm": 4,
+                "title": "Meet Florence!",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm4.staticflickr.com/3758/20139480800_1b42406f1b.jpg"
+              },
+              {
+                "id": "20139471910",
+                "owner": "134754649@N03",
+                "secret": "c7f98cfdb3",
+                "server": "389",
+                "farm": 1,
+                "title": "Couple of years ago I was getting my car window replaced in he middle of nowhere and I found this kitty she was licking the asphalt because she was so hungry I named her penny and found her a good home",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/389/20139471910_c7f98cfdb3.jpg"
+              },
+              {
+                "id": "20139329870",
+                "owner": "45715573@N04",
+                "secret": "b978778350",
+                "server": "562",
+                "farm": 1,
+                "title": "mdjm333",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/562/20139329870_b978778350.jpg"
+              },
+              {
+                "id": "19704726764",
+                "owner": "134932459@N08",
+                "secret": "fd1bc989ba",
+                "server": "398",
+                "farm": 1,
+                "title": "CAM00663",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/398/19704726764_fd1bc989ba.jpg"
+              },
+              {
+                "id": "19704709724",
+                "owner": "27370124@N05",
+                "secret": "86e2b4763d",
+                "server": "501",
+                "farm": 1,
+                "title": "photo",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/501/19704709724_86e2b4763d.jpg"
+              },
+              {
+                "id": "20139239338",
+                "owner": "126515372@N03",
+                "secret": "8c599abd67",
+                "server": "419",
+                "farm": 1,
+                "title": "Father and his son just chillin",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/419/20139239338_8c599abd67.jpg"
+              },
+              {
+                "id": "20296000965",
+                "owner": "23187053@N04",
+                "secret": "0fe00b57dc",
+                "server": "505",
+                "farm": 1,
+                "title": "Cortez in sepia",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/505/20296000965_0fe00b57dc.jpg"
+              },
+              {
+                "id": "19706242213",
+                "owner": "30770072@N07",
+                "secret": "c2643b37f0",
+                "server": "287",
+                "farm": 1,
+                "title": "Boa noite 😉",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/287/19706242213_c2643b37f0.jpg"
+              },
+              {
+                "id": "20318737702",
+                "owner": "97098442@N07",
+                "secret": "99dd050733",
+                "server": "267",
+                "farm": 1,
+                "title": "Cersei",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/267/20318737702_99dd050733.jpg"
+              },
+              {
+                "id": "20333213601",
+                "owner": "134658495@N07",
+                "secret": "08d763ce74",
+                "server": "395",
+                "farm": 1,
+                "title": "Taylor's cute kitten",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/395/20333213601_08d763ce74.jpg"
+              },
+              {
+                "id": "20140510639",
+                "owner": "134313708@N06",
+                "secret": "407a24f71d",
+                "server": "332",
+                "farm": 1,
+                "title": "\"[ strawberry kitkat &#x1f36b; ] (Post-261655)\" from \"Fashion &amp;amp; Lifestyle\"",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/332/20140510639_407a24f71d.jpg"
+              },
+              {
+                "id": "20139110498",
+                "owner": "126515372@N03",
+                "secret": "5f72000d14",
+                "server": "3727",
+                "farm": 4,
+                "title": "SOOO TIRED!!",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm4.staticflickr.com/3727/20139110498_5f72000d14.jpg"
+              },
+              {
+                "id": "19704356984",
+                "owner": "132707002@N02",
+                "secret": "9430a88607",
+                "server": "467",
+                "farm": 1,
+                "title": "DSC_2084.jpg",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/467/19704356984_9430a88607.jpg"
+              },
+              {
+                "id": "19705969663",
+                "owner": "30098550@N00",
+                "secret": "2b050b7e5f",
+                "server": "3759",
+                "farm": 4,
+                "title": "shifty eyes",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm4.staticflickr.com/3759/19705969663_2b050b7e5f.jpg"
+              },
+              {
+                "id": "20332983871",
+                "owner": "85854336@N03",
+                "secret": "9e30dab98c",
+                "server": "3731",
+                "farm": 4,
+                "title": "IMG_2089",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm4.staticflickr.com/3731/20332983871_9e30dab98c.jpg"
+              },
+              {
+                "id": "19705963713",
+                "owner": "85854336@N03",
+                "secret": "82bf3c18d0",
+                "server": "354",
+                "farm": 1,
+                "title": "IMG_2090",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/354/19705963713_82bf3c18d0.jpg"
+              },
+              {
+                "id": "20300697046",
+                "owner": "85854336@N03",
+                "secret": "1e2d83bf71",
+                "server": "521",
+                "farm": 1,
+                "title": "IMG_2095",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/521/20300697046_1e2d83bf71.jpg"
+              },
+              {
+                "id": "20326951755",
+                "owner": "85854336@N03",
+                "secret": "c04ca68a53",
+                "server": "261",
+                "farm": 1,
+                "title": "IMG_2108",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/261/20326951755_c04ca68a53.jpg"
+              },
+              {
+                "id": "20138910758",
+                "owner": "85854336@N03",
+                "secret": "1049965dca",
+                "server": "419",
+                "farm": 1,
+                "title": "IMG_2111",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/419/20138910758_1049965dca.jpg"
+              },
+              {
+                "id": "20318476172",
+                "owner": "51035644485@N01",
+                "secret": "00f6a8c478",
+                "server": "453",
+                "farm": 1,
+                "title": "2015-08-06-04",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/453/20318476172_00f6a8c478.jpg"
+              },
+              {
+                "id": "20332965561",
+                "owner": "51035644485@N01",
+                "secret": "f424624ae1",
+                "server": "3700",
+                "farm": 4,
+                "title": "2015-08-06-05",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm4.staticflickr.com/3700/20332965561_f424624ae1.jpg"
+              },
+              {
+                "id": "19705945523",
+                "owner": "51035644485@N01",
+                "secret": "a5ee9f7d21",
+                "server": "553",
+                "farm": 1,
+                "title": "2015-08-06-09",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/553/19705945523_a5ee9f7d21.jpg"
+              },
+              {
+                "id": "20326940525",
+                "owner": "51035644485@N01",
+                "secret": "0fe2cd1415",
+                "server": "517",
+                "farm": 1,
+                "title": "2015-08-06-14",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/517/20326940525_0fe2cd1415.jpg"
+              },
+              {
+                "id": "19705899583",
+                "owner": "130322896@N05",
+                "secret": "ffa944fbf4",
+                "server": "501",
+                "farm": 1,
+                "title": "Sophius 45mm f/1.8",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/501/19705899583_ffa944fbf4.jpg"
+              },
+              {
+                "id": "20300612806",
+                "owner": "98563408@N00",
+                "secret": "f6e7994a79",
+                "server": "370",
+                "farm": 1,
+                "title": "Asia-DSC_3350",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/370/20300612806_f6e7994a79.jpg"
+              },
+              {
+                "id": "20332894511",
+                "owner": "98563408@N00",
+                "secret": "e3eed130af",
+                "server": "3816",
+                "farm": 4,
+                "title": "Asia-DSC_3352",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm4.staticflickr.com/3816/20332894511_e3eed130af.jpg"
+              },
+              {
+                "id": "19705874713",
+                "owner": "98563408@N00",
+                "secret": "bbcee9da05",
+                "server": "3721",
+                "farm": 4,
+                "title": "Asia-DSC_3353",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm4.staticflickr.com/3721/19705874713_bbcee9da05.jpg"
+              },
+              {
+                "id": "20332764171",
+                "owner": "31308920@N04",
+                "secret": "dabc4221c0",
+                "server": "447",
+                "farm": 1,
+                "title": "20150330_221259",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/447/20332764171_dabc4221c0.jpg"
+              },
+              {
+                "id": "20140094819",
+                "owner": "133886119@N02",
+                "secret": "31d3763698",
+                "server": "462",
+                "farm": 1,
+                "title": "What's our agenda for day then!  #bestoftheday #catsrule #cat #dogsofinstagram #petstagram #comedy #catsanddogs #dogsandcatslivingtogether #tibetanterrier #kitten #siamesecat",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/462/20140094819_31d3763698.jpg"
+              },
+              {
+                "id": "20138694338",
+                "owner": "16985489@N02",
+                "secret": "117ba4a381",
+                "server": "380",
+                "farm": 1,
+                "title": "IMAG4111_Jean",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/380/20138694338_117ba4a381.jpg"
+              },
+              {
+                "id": "20332677401",
+                "owner": "130785321@N02",
+                "secret": "e8d1169574",
+                "server": "3714",
+                "farm": 4,
+                "title": "#doggiedaycare #petsagogo #dogsofwestchester #dogsofinstagram",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm4.staticflickr.com/3714/20332677401_e8d1169574.jpg"
+              },
+              {
+                "id": "20140008669",
+                "owner": "16985489@N02",
+                "secret": "d4a80182de",
+                "server": "5617",
+                "farm": 6,
+                "title": "IMAG4083",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm6.staticflickr.com/5617/20140008669_d4a80182de.jpg"
+              },
+              {
+                "id": "20138598508",
+                "owner": "16985489@N02",
+                "secret": "a01dee3e01",
+                "server": "552",
+                "farm": 1,
+                "title": "IMAG4078",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/552/20138598508_a01dee3e01.jpg"
+              },
+              {
+                "id": "20318157292",
+                "owner": "129337609@N02",
+                "secret": "d626f72c1a",
+                "server": "314",
+                "farm": 1,
+                "title": "#TagStaGram #cat @tagstagram #cats #pet #petstagram #nature #kitten #kittens #catstagram #cutie #pets #kitty #catlovers #catsofinstagram #animal #sweet #funpetlove #catlover #ilovemycat #ilovemypet #instapets #petsagram #picpets #instacat #love #tagsta #t",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/314/20318157292_d626f72c1a.jpg"
+              },
+              {
+                "id": "20138564698",
+                "owner": "54942525@N00",
+                "secret": "2fd1e9ace3",
+                "server": "388",
+                "farm": 1,
+                "title": "Night night",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/388/20138564698_2fd1e9ace3.jpg"
+              },
+              {
+                "id": "20138436600",
+                "owner": "95044232@N03",
+                "secret": "f391cccdc1",
+                "server": "515",
+                "farm": 1,
+                "title": "Wasabi",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/515/20138436600_f391cccdc1.jpg"
+              },
+              {
+                "id": "20332502891",
+                "owner": "98563408@N00",
+                "secret": "e685b57615",
+                "server": "304",
+                "farm": 1,
+                "title": "Lamby-DSC_3336",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/304/20332502891_e685b57615.jpg"
+              },
+              {
+                "id": "19703814044",
+                "owner": "25237981@N08",
+                "secret": "2851cb5a60",
+                "server": "347",
+                "farm": 1,
+                "title": "That face",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/347/19703814044_2851cb5a60.jpg"
+              },
+              {
+                "id": "19705459853",
+                "owner": "41443635@N02",
+                "secret": "38057703cf",
+                "server": "517",
+                "farm": 1,
+                "title": "Bruno, 3 month-old British Shorthair kitten asleep after a hectic hour's play ...",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/517/19705459853_38057703cf.jpg"
+              },
+              {
+                "id": "20138332348",
+                "owner": "51035644485@N01",
+                "secret": "62a21478e2",
+                "server": "302",
+                "farm": 1,
+                "title": "2015-08-06-Connor03",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/302/20138332348_62a21478e2.jpg"
+              },
+              {
+                "id": "20138301770",
+                "owner": "51035644485@N01",
+                "secret": "604daa0a6c",
+                "server": "361",
+                "farm": 1,
+                "title": "2015-08-06-Connor04",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/361/20138301770_604daa0a6c.jpg"
+              },
+              {
+                "id": "20317910202",
+                "owner": "51035644485@N01",
+                "secret": "5b89c0232f",
+                "server": "351",
+                "farm": 1,
+                "title": "2015-08-06-Connor01",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/351/20317910202_5b89c0232f.jpg"
+              },
+              {
+                "id": "19705374073",
+                "owner": "51035644485@N01",
+                "secret": "2deca45a78",
+                "server": "274",
+                "farm": 1,
+                "title": "2015-08-06-Connor02",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/274/19705374073_2deca45a78.jpg"
+              },
+              {
+                "id": "20300111866",
+                "owner": "51035644485@N01",
+                "secret": "1e7f11907a",
+                "server": "304",
+                "farm": 1,
+                "title": "2015-08-06-Connor06",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/304/20300111866_1e7f11907a.jpg"
+              },
+              {
+                "id": "19705373763",
+                "owner": "51035644485@N01",
+                "secret": "330a10bd83",
+                "server": "303",
+                "farm": 1,
+                "title": "2015-08-06-Connor05",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/303/19705373763_330a10bd83.jpg"
+              },
+              {
+                "id": "19705314603",
+                "owner": "73966908@N08",
+                "secret": "57ea73799b",
+                "server": "411",
+                "farm": 1,
+                "title": "My first poser in #Medellín at the Black Sheep Hostel in El Poblado.",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/411/19705314603_57ea73799b.jpg"
+              },
+              {
+                "id": "20317834492",
+                "owner": "98563408@N00",
+                "secret": "fb162fc2fa",
+                "server": "351",
+                "farm": 1,
+                "title": "Pumpkin-DSC_3315",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/351/20317834492_fb162fc2fa.jpg"
+              },
+              {
+                "id": "20317782532",
+                "owner": "127539095@N02",
+                "secret": "4e4f81b694",
+                "server": "272",
+                "farm": 1,
+                "title": "Yeah, well, hate u too",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/272/20317782532_4e4f81b694.jpg"
+              },
+              {
+                "id": "20317708152",
+                "owner": "131284273@N03",
+                "secret": "5900b71b98",
+                "server": "3690",
+                "farm": 4,
+                "title": "",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm4.staticflickr.com/3690/20317708152_5900b71b98.jpg"
+              },
+              {
+                "id": "19705141133",
+                "owner": "60343699@N04",
+                "secret": "4cfe756965",
+                "server": "264",
+                "farm": 1,
+                "title": "",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/264/19705141133_4cfe756965.jpg"
+              },
+              {
+                "id": "20139452519",
+                "owner": "56637597@N05",
+                "secret": "032aac3eac",
+                "server": "372",
+                "farm": 1,
+                "title": "La wawa cumplió un año. Gracias por todo el punk entregado, Catlin Jana 💕",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/372/20139452519_032aac3eac.jpg"
+              },
+              {
+                "id": "20138006280",
+                "owner": "120728468@N08",
+                "secret": "541a2bcc6c",
+                "server": "402",
+                "farm": 1,
+                "title": "tmpcXxIBB",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/402/20138006280_541a2bcc6c.jpg"
+              },
+              {
+                "id": "19703410664",
+                "owner": "17683298@N04",
+                "secret": "ecbd3b1fc5",
+                "server": "5621",
+                "farm": 6,
+                "title": "¿Os acordáis del gatito de los ojos enfermos (foto de arriba, la colgué el viernes)? Pues gracias a la #protectora #barcelonagatigos ahora está curado y en breve estará listo para encontrar un hogar #gatos #kittens #gatitos #adopciones #adopcion #protecto",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm6.staticflickr.com/5621/19703410664_ecbd3b1fc5.jpg"
+              },
+              {
+                "id": "20326047035",
+                "owner": "98563408@N00",
+                "secret": "1c2d4589c8",
+                "server": "506",
+                "farm": 1,
+                "title": "Peter-Piper-DSC_3302a",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/506/20326047035_1c2d4589c8.jpg"
+              },
+              {
+                "id": "20139402319",
+                "owner": "98563408@N00",
+                "secret": "95de691b02",
+                "server": "526",
+                "farm": 1,
+                "title": "Piper-Peter-DSC_3277",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/526/20139402319_95de691b02.jpg"
+              },
+              {
+                "id": "20133856250",
+                "owner": "92909698@N06",
+                "secret": "7c5b186dcd",
+                "server": "459",
+                "farm": 1,
+                "title": "\"Flaucher\" in Munich",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/459/20133856250_7c5b186dcd.jpg"
+              },
+              {
+                "id": "20137966860",
+                "owner": "60343699@N04",
+                "secret": "0f540d809f",
+                "server": "279",
+                "farm": 1,
+                "title": "",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/279/20137966860_0f540d809f.jpg"
+              },
+              {
+                "id": "19703364774",
+                "owner": "60343699@N04",
+                "secret": "d83afab418",
+                "server": "3745",
+                "farm": 4,
+                "title": "",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm4.staticflickr.com/3745/19703364774_d83afab418.jpg"
+              },
+              {
+                "id": "20317560512",
+                "owner": "98563408@N00",
+                "secret": "c1088c6ffb",
+                "server": "524",
+                "farm": 1,
+                "title": "Peter-DSC_3258",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/524/20317560512_c1088c6ffb.jpg"
+              },
+              {
+                "id": "20332039011",
+                "owner": "98563408@N00",
+                "secret": "bc740219c2",
+                "server": "415",
+                "farm": 1,
+                "title": "Peter-DSC_3265",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/415/20332039011_bc740219c2.jpg"
+              },
+              {
+                "id": "20137947830",
+                "owner": "98563408@N00",
+                "secret": "00b7c0fb4a",
+                "server": "389",
+                "farm": 1,
+                "title": "Peter-DSC_3283",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/389/20137947830_00b7c0fb4a.jpg"
+              },
+              {
+                "id": "19704987203",
+                "owner": "22989921@N05",
+                "secret": "a9c8a039f3",
+                "server": "3688",
+                "farm": 4,
+                "title": "Taverne Mistrali , Provatas , Milos ,Grèce 2015",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm4.staticflickr.com/3688/19704987203_a9c8a039f3.jpg"
+              },
+              {
+                "id": "20332000651",
+                "owner": "7152940@N04",
+                "secret": "cd64e262cf",
+                "server": "415",
+                "farm": 1,
+                "title": "luddkolt's british shorthair 2014 2015 -",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/415/20332000651_cd64e262cf.jpg"
+              },
+              {
+                "id": "20137938698",
+                "owner": "98563408@N00",
+                "secret": "d3528b0ef6",
+                "server": "475",
+                "farm": 1,
+                "title": "Piper-DSC_3264",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/475/20137938698_d3528b0ef6.jpg"
+              },
+              {
+                "id": "19704980933",
+                "owner": "98563408@N00",
+                "secret": "cb62038452",
+                "server": "321",
+                "farm": 1,
+                "title": "Piper-DSC_3274",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/321/19704980933_cb62038452.jpg"
+              },
+              {
+                "id": "20139273949",
+                "owner": "131411966@N08",
+                "secret": "e96419d406",
+                "server": "323",
+                "farm": 1,
+                "title": "Sophie tirando uma soneca... #cat #cats #Gato #catsagram #catstagram #instagood #kitten #kitty #kittens #pet #pets #animal #animals #petstagram #petsagram #photooftheday #catsofinstagram #ilovemycat #instagramcats #nature #catoftheday #lovecats #furry #sl",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/323/20139273949_e96419d406.jpg"
+              },
+              {
+                "id": "20317454752",
+                "owner": "126511877@N08",
+                "secret": "14b34c7945",
+                "server": "443",
+                "farm": 1,
+                "title": "cuteandkitty",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/443/20317454752_14b34c7945.jpg"
+              },
+              {
+                "id": "20139243449",
+                "owner": "134754649@N03",
+                "secret": "87112b7d22",
+                "server": "541",
+                "farm": 1,
+                "title": "I see your small deer, and raise you one small napping kitten.",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/541/20139243449_87112b7d22.jpg"
+              },
+              {
+                "id": "20139239739",
+                "owner": "134754649@N03",
+                "secret": "0ae497068a",
+                "server": "3806",
+                "farm": 4,
+                "title": "Double Trouble",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm4.staticflickr.com/3806/20139239739_0ae497068a.jpg"
+              },
+              {
+                "id": "20325858545",
+                "owner": "134754649@N03",
+                "secret": "c7c18fd3e7",
+                "server": "255",
+                "farm": 1,
+                "title": "Found this kitten on the side of the highway.. took her home & cleaned her up. Meet Minnie!",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/255/20325858545_c7c18fd3e7.jpg"
+              },
+              {
+                "id": "20136197949",
+                "owner": "133492639@N05",
+                "secret": "78d9486f61",
+                "server": "334",
+                "farm": 1,
+                "title": "BELINHA FILHOTES 334",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/334/20136197949_78d9486f61.jpg"
+              },
+              {
+                "id": "20296122866",
+                "owner": "133492639@N05",
+                "secret": "eb190d8855",
+                "server": "286",
+                "farm": 1,
+                "title": "f 017",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/286/20296122866_eb190d8855.jpg"
+              },
+              {
+                "id": "19699639234",
+                "owner": "133492639@N05",
+                "secret": "450cf3aa3a",
+                "server": "3704",
+                "farm": 4,
+                "title": "f 021",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm4.staticflickr.com/3704/19699639234_450cf3aa3a.jpg"
+              },
+              {
+                "id": "20325797345",
+                "owner": "104885802@N02",
+                "secret": "30a6a25c94",
+                "server": "509",
+                "farm": 1,
+                "title": "Benny5.10.15",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/509/20325797345_30a6a25c94.jpg"
+              },
+              {
+                "id": "20137702400",
+                "owner": "60397714@N00",
+                "secret": "4201432f22",
+                "server": "488",
+                "farm": 1,
+                "title": "Pippa....the pippa",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/488/20137702400_4201432f22.jpg"
+              },
+              {
+                "id": "19702981334",
+                "owner": "91758036@N02",
+                "secret": "fb4f124774",
+                "server": "373",
+                "farm": 1,
+                "title": "Kitten",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/373/19702981334_fb4f124774.jpg"
+              },
+              {
+                "id": "19704647803",
+                "owner": "91758036@N02",
+                "secret": "7a8f959e8d",
+                "server": "299",
+                "farm": 1,
+                "title": "Reflection",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/299/19704647803_7a8f959e8d.jpg"
+              },
+              {
+                "id": "19704647523",
+                "owner": "91758036@N02",
+                "secret": "672e3224ee",
+                "server": "549",
+                "farm": 1,
+                "title": "Orange Kitten",
+                "ispublic": 1,
+                "isfriend": 0,
+                "isfamily": 0,
+                "url": "https://farm1.staticflickr.com/549/19704647523_672e3224ee.jpg"
+              }
+            ]
+          },
+          "stat": "ok"
+        },
+        "codeGenerationParams": {
+          "apiName": "flickr",
+          "endpointName": "Flickr API",
+          "methodName": "photos_search",
+          "namespace": "intel.xdk.services."
+        },
+        "parameters": {
+          "text": "kittens",
+          "tags": "",
+          "tag_mode": "any",
+          "group_id": "",
+          "radius": "",
+          "lat": "",
+          "lon": "",
+          "per_page": "100",
+          "page": "1"
+        },
+        "requiredLibraries": [
+          "xhr.js",
+          "xdk/services/service-credentials.js",
+          "xdk/services/service-methods.js"
+        ]
+      }
+    ],
+    "cordovaPluginsDirectory": "plugins",
+    "cordovaPlugins": [
+      {
+        "id": "org.apache.cordova.device",
+        "version": "0.2.13",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {},
+        "dependsOn": [],
+        "dependedBy": []
+      },
+      {
+        "id": "org.apache.cordova.splashscreen",
+        "version": "0.3.5",
+        "selectedState": "Included",
+        "data": {},
+        "paramvals": {},
+        "dependsOn": [],
+        "dependedBy": []
+      }
+    ],
+    "buildConfigurations": {
+      "Android-Crosswalk": {
+        "platform_": "android",
+        "runtime_": "Crosswalk with Cordova 3.x",
+        "name_": "Android-Crosswalk",
+        "preferences_": {
+          "android-minSdkVersion": "14",
+          "android-targetSdkVersion": "19",
+          "android-installLocation": "auto"
+        },
+        "isActive_": true,
+        "appName_": "macaroni-2",
+        "appID_": "xdk.intel.blank.ad.template.crosswalk",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "iosProvs_": [],
+        "cordovaCLIVersion_": "4.1.2",
+        "crosswalkVersion_": "11",
+        "appVersion_": "0.0.1",
+        "appAuthor_": "Intel XDK",
+        "appDescription_": "Template to develop a Cordova mobile web app using the App Designer UI editor.",
+        "appVersionCode_": "1"
+      },
+      "Android": {
+        "platform_": "android",
+        "runtime_": "Cordova 3.x",
+        "name_": "Android",
+        "preferences_": {
+          "android-minSdkVersion": "10",
+          "android-targetSdkVersion": "19",
+          "android-installLocation": "auto"
+        },
+        "isActive_": true,
+        "appName_": "macaroni-2",
+        "appID_": "xdk.intel.blank.ad.template",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "iosProvs_": [],
+        "cordovaCLIVersion_": "4.1.2",
+        "crosswalkVersion_": "11",
+        "appVersion_": "0.0.1",
+        "appAuthor_": "Intel XDK",
+        "appDescription_": "Template to develop a Cordova mobile web app using the App Designer UI editor.",
+        "appVersionCode_": "1"
+      },
+      "iOS": {
+        "platform_": "ios",
+        "runtime_": "Cordova 3.x",
+        "name_": "iOS",
+        "preferences_": {
+          "ios-target": "6",
+          "ios-configuration": "adhoc"
+        },
+        "isActive_": true,
+        "appName_": "macaroni-2",
+        "appID_": "xdk.intel.blank.ad.template",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "iosProvs_": [],
+        "cordovaCLIVersion_": "4.1.2",
+        "crosswalkVersion_": "11",
+        "appVersion_": "0.0.1",
+        "appAuthor_": "Intel XDK",
+        "appDescription_": "Template to develop a Cordova mobile web app using the App Designer UI editor."
+      },
+      "Windows8": {
+        "platform_": "windows8",
+        "runtime_": "Cordova 3.x",
+        "name_": "Windows8",
+        "preferences_": {
+          "windows-publisher-display-name": "",
+          "windows-publisher-id": ""
+        },
+        "isActive_": true,
+        "appName_": "macaroni-2",
+        "appID_": "xdk.intel.blank.ad.template",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "iosProvs_": [],
+        "cordovaCLIVersion_": "4.1.2",
+        "crosswalkVersion_": "11",
+        "appVersion_": "0.0.0.1",
+        "appAuthor_": "Intel XDK",
+        "appDescription_": "Template to develop a Cordova mobile web app using the App Designer UI editor."
+      },
+      "WebApp": {
+        "platform_": "webapp",
+        "runtime_": "W3C",
+        "name_": "WebApp",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "macaroni-2",
+        "appID_": "not.yet.specified",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appAuthor_": "Intel XDK",
+        "appVersion_": "0.0.1"
+      },
+      "Chrome": {
+        "platform_": "chromeos",
+        "runtime_": "W3C on Chrome OS",
+        "name_": "Chrome",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "macaroni-2",
+        "appID_": "not.yet.specified",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appAuthor_": "Intel XDK",
+        "appVersion_": "0.0.1"
+      },
+      "Firefox": {
+        "platform_": "firefoxos",
+        "runtime_": "W3C on Firefox OS",
+        "name_": "Firefox",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "macaroni-2",
+        "appID_": "not.yet.specified",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appAuthor_": "Intel XDK",
+        "appVersion_": "0.0.1"
+      },
+      "Facebook": {
+        "platform_": "facebook",
+        "runtime_": "W3C on Facebook",
+        "name_": "Facebook",
+        "preferences_": {},
+        "isActive_": false,
+        "appName_": "macaroni-2",
+        "appID_": "not.yet.specified",
+        "appAccess_": [
+          {
+            "origin": "*"
+          }
+        ],
+        "icons_": [],
+        "splashes_": [],
+        "addlPermissions_": "",
+        "excludedLibraries_": "",
+        "appAuthor_": "Intel XDK",
+        "appVersion_": "0.0.1"
+      }
+    },
+    "gameAssetDirectory": "asset",
+    "gameMetadata": {},
+    "projectTags": []
+  }
+}

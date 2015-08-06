@@ -1,0 +1,13 @@
+{
+  "project": {
+    "projectSettingsVersion": "1.2",
+    "currentBuildConfiguration": "Android-Crosswalk",
+    "projectFiles": {},
+    "projectDirectories": {},
+    "currentService": {
+      "methodapi": "photos_search",
+      "endPoint": "Flickr-API",
+      "service": "flickr"
+    }
+  }
+}
